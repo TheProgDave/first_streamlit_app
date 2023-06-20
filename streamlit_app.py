@@ -9,3 +9,7 @@ sl.text('🐔 Hard-Boiled Free-Range Egg')
 sl.text('🥑🍞 Avocado Toast')
 
 sl.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
+
+import pandas as pd
+my_fuit_list = pd.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+sl.datframe(my_fruit_list)
